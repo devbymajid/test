@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.anim{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    animation: x 4s infinite linear;
+}
+@keyframes x{
+    0%{
+        transform: translate(0);
+        transform: rotate(0deg);
+        
+    }
+    25%{
+        transform: translate(0, 80vh);
+        background-color: blueviolet;
+        transform: rotate();
+    }
+        50%{
+            transform: translate(85vw, 80vh);
+            background-color: honeydew;
+    }
+    75%{
+        transform: translate(85vw, 0);
+        background-color: yellowgreen;
+    }
+    100%{
+        transform: translate(0, 0);
+        background-color: blue;
+        
+    }
+}
