@@ -12,26 +12,29 @@ body{
 }
 @keyframes x{
     0%{
-        transform: translate(0);
-        transform: rotate(0deg);
+        translate:0px 0px;
+        rotate: 0deg;
         
     }
     25%{
-        transform: translate(0, 80vh);
-        background-color: blueviolet;
-        transform: rotate();
+        translate: 0 80vw;
+        rotate: 90deg;
+        background-color: aqua;
     }
-        50%{
-            transform: translate(85vw, 80vh);
-            background-color: honeydew;
+    50%{
+        translate: 80vw 80vw;
+        rotate: 180deg;
+        background-color: honeydew;
     }
     75%{
-        transform: translate(85vw, 0);
+        translate: 80vw 0;
+        rotate: 270deg;
         background-color: yellowgreen;
     }
     100%{
-        transform: translate(0, 0);
+        translate: 0 0;
+        rotate: 360deg;
         background-color: blue;
-        
     }
+
 }
