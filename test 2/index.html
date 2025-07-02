@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stayles.css">
 </head>
 <body>
     <header>
         <div class="header">
             <h1>Majid</h1>
             <div class="search">
-                <input type="text" placeholder="Search...">
-                <button>Search</button>
+                <select name="cate" id="cate">
+                    <option value="all">All</option>
+                    <option value="books">Books</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                </select>
+                <input type="search" placeholder="Search...">
+                <button class="btn-ser">Search</button>
                 </div>
             <ul>
                 <li>Home</li>
