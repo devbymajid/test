@@ -1,5 +1,5 @@
 body{
-    background-color: #706b6b;
+    background-color: #cac8c8;
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -9,12 +9,19 @@ body{
     justify-content: space-between;
     aligin-items: center;
     padding: 10px 40px;
+    background: #ada1a1;
+    
+}
+.header-icon a{
+    text-decoration: none;
+    color: rgb(32, 19, 9);
+    font-size: 18px;
 }
 /********************************* Header *******************************************************/
 header{
-    background-color: black;
+background: #8a8383;
     color: white;
-    padding: 10px 40px;
+
         border-radius: 0px 0px 25px 25px;
 }
 .header{
