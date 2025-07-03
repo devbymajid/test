@@ -3,10 +3,18 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
 }
+/********************************* Header icon *******************************************************/
+.header-icon{
+    display: flex;
+    justify-content: space-between;
+    aligin-items: center;
+    padding: 10px 40px;
+}
+/********************************* Header *******************************************************/
 header{
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 10px 40px;
         border-radius: 0px 0px 25px 25px;
 }
 .header{
@@ -18,7 +26,9 @@ header{
 }
 .header h1{
     margin: 0;
+    padding-left: 35px;
     font-family: serif;
+    font-size: 40px;
 }
 #cate{
     padding: 10px;
@@ -42,11 +52,12 @@ header{
 }
 
 .search input{
-    
-    padding: 11px;
+    padding: 11px 100px;
     border: none;
-    
+    text-align: center;
+    text-transform: uppercase;
 }
+
 .btn-ser{
     background-color: darkgray;
     position: relative;
@@ -67,4 +78,19 @@ ul{
     list-style: none;
     display: flex;
     gap: 20px;
+
 }
+li{
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+li:hover{
+    background-color: maroon;
+    color: white;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+}
+/**********************************page ono **************************************************/
