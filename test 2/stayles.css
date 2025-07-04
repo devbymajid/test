@@ -31,7 +31,6 @@ gap: 25px;
 header{
 background: #8a8383;
     color: white;
-
         border-radius: 0px 0px 25px 25px;
 }
 .header{
@@ -39,7 +38,6 @@ background: #8a8383;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-
 }
 
 .header h1{
@@ -69,14 +67,14 @@ background: #8a8383;
     
 }
 
-.search input{
+#searchInput{
     padding: 11px 100px;
     border: none;
     text-align: center;
     text-transform: uppercase;
 }
 
-.btn-ser{
+.fa-solid{
     background-color: darkgray;
     position: relative;
 padding: 11px;
@@ -86,7 +84,7 @@ border: none;
 position: relative;
 left: -4px;
 }
-.btn-ser:hover{
+.fa-solid:hover{
     background-color: maroon;
     transition: background-color 1s ease;
     color: white;
@@ -112,56 +110,60 @@ li:hover{
     transition: color 1s ease;
 }
 /**********************************media **************************************************/
-@media (max-width: 1024px) {
+
+/**********************************mobile **************************************************/
+@media (max-width: 768px) {
+    header{
+
+        height: 210px;
+    }
     .header-icon{
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
   
-}
-/**********************************mobile **************************************************/
-@media (max-width: 768px) {
-    .header-icon{
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    .mobile{
+    
+    .header {
+display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-   
-}
+        padding: 0px;
+        margin: 0;
     }
-    /* Mobile *
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: stretch;
-    text-align: center;
-  }
+    .header h1 {
+        position: relative;
+left: -180px;
+    }
+     .search{
+        position: relative;
+        display: flex;
 
-  .header h1 {
-    margin-bottom: 10px;
+        align-items: center;
+  } 
+  .search input{
+    width: 12px;
   }
-
-  .search {
-    flex-direction: column;
-    align-items: stretch;
-    margin-bottom: 15px;
+  nav{
+    position: relative;
+    top: -100px;
+    left: 20%;
+    padding-left: 10px;
   }
-
-  .search select,
-  .search input,
-  .search .btn-ser {
-    width: 100%;
-  }
-
-  .nav {
-    flex-direction: column;
-    gap: 10px;
-  }
+ 
+  
 }
-*/
+    
+/**********************************tablet **************************************************/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header{
+       display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0;
+    }
+  
+    
+   }
 /**********************************page ono **************************************************/
