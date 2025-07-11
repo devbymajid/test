@@ -9,5 +9,51 @@
 <body>
     <header><h1>Registration Form</h1></header>
     <p>Please fill out this form with the required information</p>
+    <form action="">
+        <fieldset>
+            <label for="first-name">Enter Your First Name </label>
+                <input type="text" name="first name" id="first-name" placeholder="Your First Name" required>
+            
+            <label for="last-name">Enter Your Last Name
+                <input type="text" name="last name" id="last-name" placeholder="Your Last Name" required>
+            </label>
+            <label for="email">Enter Your Email
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+            </label>
+            <label for="password">Create a New password
+                <input type="password" name="password" id="password" placeholder="Your Password" minlength="8" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Account type (required)
+                </legend>
+                <label for="personal">
+                <input type="radio"  class="inline" name="checked" id="personal" checked value="personal">
+                Personal</label>
+                <label for="business">
+                    <input type="radio" class="inline" name="checked" id="business" value="business">Business
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="file">Upload a profile picture:
+                <input type="file" name="file" id="file" accept="image/*">
+            </label>
+            <label for="age">Input your age (years):
+                <input type="number" name="age" id="age" placeholder="Your age" min="13" max="100" required>            <label for="about">How did you hear about us?
+                </label>
+                <select >
+                    <option value="select one" id="select one">(select one)</option>
+                    <option value="html" id="html">html</option>
+                    <option value="css" id="css">css</option>
+                    <option value="js" id="js">js</option>
+                </select>
+            <label for="bio">Provide a bio:</label>
+                <textarea name="bio" id="bio" placeholder="i like coding on the beach....." ></textarea>
+           
+            
+        </fieldset>
+        <label for="accept"><input type="checkbox" class="accept" id="accept" required>I accept the<a href="#">terms and conditions</a> </label>
+        <button type="submit" class="submit">Submit</button>
+    </form>
 </body>
 </html>

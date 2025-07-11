@@ -1,0 +1,76 @@
+
+body{
+    background: rgb(40, 40, 82);
+    color: #fff;
+    width: 90%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+fieldset{  
+
+width: 100%;
+border: none;
+border-bottom: 2px solid #fff;
+border-radius: 10px;
+}
+
+
+label{
+display: block;
+margin: 10px 0;
+cursor: default;
+
+}
+input{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border: none;
+  border-bottom: 1px solid rgb(39, 228, 48);
+  border-radius: 5px;
+background-color: antiquewhite;
+
+}
+.inline {
+width: unset;
+margin: 0 0.5rem 0 0;
+vertical-align: middle;
+}
+.inline[type="radio"] {
+    
+ accent-color: green;
+}
+input[type="file"] {
+   background-color: rgba(175, 145, 145, 0);
+}
+select {
+  width: 100%;
+  text-align: center;
+min-height: 2em;
+}
+textarea{
+  width: 100%;
+  min-height: 5em;
+}
+.accept{
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+}
+button{
+  width: 100px;
+  margin: 10px auto;
+  align-items: center;
+  display: block;
+padding: 9px;
+}
